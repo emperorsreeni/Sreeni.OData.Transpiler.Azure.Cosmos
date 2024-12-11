@@ -1,0 +1,33 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <Title>OData Transpiler for Azure Cosmos DB</Title>
+    <Company>Sreenivasan</Company>
+    <Description>Sreeni.OData.Transpiler.Azure.Cosmos is a .NET-based OData query translator specifically designed for Azure Cosmos DB. 
+
+It translates OData queries into Cosmos DB SQL queries, enabling seamless integration and query translation for Azure Cosmos DB.
+</Description>
+    <PackageReadmeFile>ReadMe.md</PackageReadmeFile>
+    <PackageTags>OData, Azure, Comos, NoSql</PackageTags>
+    <AnalysisLevel>latest-recommended</AnalysisLevel>
+    <Authors>Sreenivasan</Authors>
+	  <RepositoryUrl>https://github.com/emperorsreeni/Sreeni.OData.Transpiler.Azure.Cosmos</RepositoryUrl>
+	  <Version>1.0.0</Version>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Azure.Cosmos" Version="3.46.0" />
+    <PackageReference Include="Sreeni.OData.Transpiler.Core" Version="1.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="ReadMe.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
+
+</Project>

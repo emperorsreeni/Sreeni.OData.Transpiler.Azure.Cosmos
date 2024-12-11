@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35527.113 d17.12
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sreeni.OData.Transpiler.Azure.Cosmos", "Sreeni.OData.Transpiler.Azure.Cosmos\Sreeni.OData.Transpiler.Azure.Cosmos.csproj", "{5FBF844C-B497-4CBD-BBAA-F87B03CE0F7D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sreeni.OData.Transpiler.Azure.Cosmos.Tests", "Sreeni.OData.Transpiler.Azure.Cosmos.Tests\Sreeni.OData.Transpiler.Azure.Cosmos.Tests.csproj", "{633FE7C5-DB44-4FB1-9BDD-2B1C624F16C7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5FBF844C-B497-4CBD-BBAA-F87B03CE0F7D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5FBF844C-B497-4CBD-BBAA-F87B03CE0F7D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5FBF844C-B497-4CBD-BBAA-F87B03CE0F7D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5FBF844C-B497-4CBD-BBAA-F87B03CE0F7D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{633FE7C5-DB44-4FB1-9BDD-2B1C624F16C7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{633FE7C5-DB44-4FB1-9BDD-2B1C624F16C7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{633FE7C5-DB44-4FB1-9BDD-2B1C624F16C7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{633FE7C5-DB44-4FB1-9BDD-2B1C624F16C7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
